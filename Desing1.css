@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(247, 243, 237);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    padding: 50px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu a{
+    color:rgb(129, 129, 129);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    color: #f15d51;
+}
+
+.info{
+    margin-top: 10px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.text h1{
+    min-width: 400px;
+    font-size: 60px;
+}
+
+.text .subtitle{
+    min-width: 300px;
+    color:rgb(129, 129, 129);
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.text .RM{
+    position: relative;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    letter-spacing: 2px;
+    background-color: #f15d51;
+    color: rgb(252, 251, 251);
+    text-align: center;
+}
+
+.text .RM:hover{
+    background-color: #000;
+}
+
+.text{
+    position: relative;
+    display: flex;
+    max-width: 600px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+
+.news{
+    position: absolute;
+    top: 130;
+    width: 500px;
+    height: 600px;
+    margin-left: 850px;
+    margin-top: 20px;
+    background-color: #00001a;
+    color: rgb(208, 154, 38);
+    font-size: 50px;
+    
+}
+
+.news div{
+    background-color:#00001a;
+    display: fixed;
+    margin-top: 20px;
+}
+
+.news p{
+    background-color:#00001a;
+    color: rgb(222, 217, 217);
+    font-size: 18px;
+    margin: 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    height: 100px;
+}
+
+.news .n1, .n2, .n3{
+    height: 150px;
+}
+
+.news .d3{
+    height: 50px;
+    border-bottom: none;
+}
+
+.news h1{
+    width: 480px;
+    text-align: center;
+    background-color: #00001a;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+button{
+    display: flex;
+    min-width: 300px;
+    max-height: 50px;
+    border: none;
+    background-color: #f15d51;
+    color: rgb(252, 251, 251);
+}
+
+.trending{
+    margin-left: 80px;
+    align-items: center;
+    display: flex;
+    width: auto;
+}
+
+.trending .t1, .t2, .t3{
+    display: flex;
+    width: 450px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.trending .bloco, .b2, .b3{
+    margin-left: 15px;
+    display: inline;
+    height: 67px;
+}
+
+
+.trending .num1, .num2, .num3{
+    color:rgb(129, 129, 129);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.trending .p1, .p2, .p3{
+    color:rgb(129, 129, 129);
+    margin-top: 10px;
+}
